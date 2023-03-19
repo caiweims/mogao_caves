@@ -2,13 +2,15 @@
 //
 
 #include <iostream>
-namespace mogao
+#include "mogao_vector.h"
+using namespace mogao;
+void test_m_vector()
 {
 
 }
 int main()
 {
-    std::cout << "Hello World!\n";
+    //std::cout << "Hello World!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

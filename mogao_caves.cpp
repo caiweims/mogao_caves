@@ -2,14 +2,20 @@
 //
 
 #include <iostream>
+#include <vector>
 #include "mogao_vector.h"
-using namespace mogao;
-void test_m_vector()
+#include "exp_vector.h"
+using namespace Mogao;
+//using namespace experiment;
+void test_exp_vector()
 {
-
+    experiment::vector<int> v_int;
+    v_int.push_back(12);
+    std::cout << v_int.size() << std::endl;
 }
 int main()
 {
+    test_exp_vector();
     //std::cout << "Hello World!\n";
 }
 

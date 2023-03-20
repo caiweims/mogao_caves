@@ -1,5 +1,5 @@
 #pragma once
-namespace mogao
+namespace Mogao
 {
 	//https://svn.apache.org/repos/asf/stdcxx/
 	//template <typename T,typename Allocator=std::allocator<T>>
@@ -15,5 +15,5 @@ namespace mogao
 	private:
 
 	};
-	std::allocator<T> vector<T>::alloc;
+	//std::allocator<T> vector<T>::alloc;
 }

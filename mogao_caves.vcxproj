@@ -130,6 +130,7 @@
     <ClCompile Include="mogao_caves.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="exp_vector.h" />
     <ClInclude Include="mogao_vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

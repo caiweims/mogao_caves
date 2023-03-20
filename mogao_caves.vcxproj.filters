@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="experiment">
+      <UniqueIdentifier>{3147c44c-5cce-4ac5-9d7a-28bcfdef0e1a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mogao_caves.cpp">
@@ -22,6 +25,9 @@
   <ItemGroup>
     <ClInclude Include="mogao_vector.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exp_vector.h">
+      <Filter>experiment</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

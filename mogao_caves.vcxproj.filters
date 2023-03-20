@@ -29,5 +29,14 @@
     <ClInclude Include="exp_vector.h">
       <Filter>experiment</Filter>
     </ClInclude>
+    <ClInclude Include="exp_algorithm.h">
+      <Filter>experiment</Filter>
+    </ClInclude>
+    <ClInclude Include="exp_allocator.h">
+      <Filter>experiment</Filter>
+    </ClInclude>
+    <ClInclude Include="exp_specialized.h">
+      <Filter>experiment</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

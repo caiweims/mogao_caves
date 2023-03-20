@@ -3,14 +3,18 @@
 
 #include <iostream>
 #include <vector>
-#include "mogao_vector.h"
+#include "mogao_vector.h"//final implement
+
 #include "exp_vector.h"
+#include "exp_algorithm.h"
 using namespace Mogao;
 //using namespace experiment;
 void test_exp_vector()
 {
     experiment::vector<int> v_int;
     v_int.push_back(12);
+    v_int.push_back(2023);
+    bool val = experiment::find(v_int.begin(),v_int.end(),13);
     std::cout << v_int.size() << std::endl;
 }
 int main()

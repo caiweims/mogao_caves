@@ -130,6 +130,9 @@
     <ClCompile Include="mogao_caves.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="exp_algorithm.h" />
+    <ClInclude Include="exp_allocator.h" />
+    <ClInclude Include="exp_specialized.h" />
     <ClInclude Include="exp_vector.h" />
     <ClInclude Include="mogao_vector.h" />
   </ItemGroup>

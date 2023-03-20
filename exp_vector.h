@@ -12,9 +12,9 @@ namespace experiment
         using pointer = typename _Iterator::pointer;
 
     };
-    /*
+    /*************************************
     * vector implement use std::allocator;
-    */
+    *************************************/
     template<typename T>
     class vector
     {
@@ -29,6 +29,8 @@ namespace experiment
         //constructors
         vector(const allocator_type& _alloc = allocator_type())
             :alloc(_alloc) {}
+
+        ~vector() { free(); }
 
         //why we need transfor pointer to iter
         using iterator = pointer;
@@ -67,7 +69,10 @@ namespace experiment
         }
         void free()
         {
+            if (alloc.elements)
+            {
 
+            }
         }
     private:
 

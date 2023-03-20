@@ -38,5 +38,8 @@
     <ClInclude Include="exp_specialized.h">
       <Filter>experiment</Filter>
     </ClInclude>
+    <ClInclude Include="exp_iterator.h">
+      <Filter>experiment</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -2,16 +2,7 @@
 //head file start with "exp" means expriment imm
 namespace experiment
 {
-	/*before build a vector,we need build iterator
-	* and we use std::allocator as our allocator
-	*/
-    template <class _Iterator>
-    struct iterator_traits
-    {
-        using value_type = typename _Iterator::value_type;
-        using pointer = typename _Iterator::pointer;
-
-    };
+	
     /*************************************
     * vector implement use std::allocator;
     *************************************/
@@ -39,8 +30,8 @@ namespace experiment
         //iterator
         iterator begin() { return make_iter(alloc.elements); }
         iterator end() { return make_iter(alloc.first_free); }
-        size_type size() { return alloc.first_free - alloc.elements; }
-        size_type capacity() { return alloc.cap - alloc.elements; }
+        size_type size() const { return alloc.first_free - alloc.elements; }
+        size_type capacity() const { return alloc.cap - alloc.elements; }
         //modifier
         void push_back(const value_type& val)
         {

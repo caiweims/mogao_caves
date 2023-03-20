@@ -3,12 +3,28 @@
 
 #include <iostream>
 #include <vector>
+#include <string>
+#include <memory>
+
 #include "mogao_vector.h"//final implement
 
 #include "exp_vector.h"
 #include "exp_algorithm.h"
 using namespace Mogao;
 //using namespace experiment;
+class slave
+{
+public:
+    slave(const std::string& str):name(new std::string(str)){}
+    slave(const slave&);
+    slave& operator=(const slave&);
+private:
+    std::string* name = nullptr;
+};
+void test_slave()
+{
+    slave ob("string");
+}
 void test_exp_vector()
 {
     experiment::vector<int> v_int;

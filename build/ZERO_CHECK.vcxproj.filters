@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\cppPrimer\mogao_caves\build\CMakeFiles\443e662b8495f374fd1abe5667b20426\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D90DA280-7BD1-391C-B1FC-AB8E75DB0BED}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

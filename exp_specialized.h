@@ -1,8 +1,8 @@
 #pragma once
-#define exp_size_t unsigned long long
+#define EXP_SIZE_T unsigned long long
 namespace experiment
 {
-	using size_type = exp_size_t;
+	using size_type = EXP_SIZE_T;
 	template<class container>
 	size_type new_capacity()
 	{
